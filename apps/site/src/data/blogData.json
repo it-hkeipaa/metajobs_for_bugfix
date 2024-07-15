@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Simple & Awesome Blog Title Here Lorem Ipsum Dummy Text",
+    "slug": "single-blog",
+    "date": "17 July 2022",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "content": "<p class=\"text-base text-base-content/80 font-serif\">\n\t\t\t\t\t\t\t\tTraveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\tOne of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<h5 class=\"text-2xl text-base-content font-semibold mt-8 mb-4\">\n\t\t\t\t\t\t\t\tResearch Your Destination\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"text-base text-base-content/80 font-serif\">\n\t\t\t\t\t\t\t\tTraveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\tOne of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<h5 class=\"text-2xl text-base-content font-semibold mt-8 mb-4\">\n\t\t\t\t\t\t\t\tPlan Your Itinerary\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"text-base text-base-content/80 font-serif\">\n\t\t\t\t\t\t\t\tTraveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\tOne of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.\n\t\t\t\t\t\t\t</p>",
+    "cover_image": "/assets/img/post/blog-img-1.webp"
+  },
+  {
+    "id": "2",
+    "title": "Simple & Awesome Blog Title Here Lorem Ipsum Dummy Text",
+    "slug": "single-blog",
+    "date": "17 July 2022",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem perspiciatis saepe quam facilis iure ut veritatis voluptates repellat nobis adipisci nisi quod suscipit nulla, fuga maxime hic quibusdam cupiditate, eveniet accusamus aperiam, harum totam soluta natus? Dolorem unde ratione ex error aspernatur. Expedita explicabo perferendis consequatur doloribus fugiat dolores quidem totam. Dignissimos, modi velit fuga aliquam aut corporis praesentium ullam cumque quasi facere voluptates sequi consequatur officiis dicta tempore, incidunt nobis atque minus non explicabo animi iure sint vitae vel! Dignissimos, beatae fugit, cum iste doloremque repellat assumenda, magnam distinctio dolorum expedita magni vitae excepturi esse placeat porro inventore?",
+    "cover_image": "/assets/img/post/blog-img-2.webp"
+  },
+  {
+    "id": "3",
+    "title": "Simple & Awesome Blog Title Here Lorem Ipsum Dummy Text",
+    "slug": "single-blog",
+    "date": "17 July 2022",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem perspiciatis saepe quam facilis iure ut veritatis voluptates repellat nobis adipisci nisi quod suscipit nulla, fuga maxime hic quibusdam cupiditate, eveniet accusamus aperiam, harum totam soluta natus? Dolorem unde ratione ex error aspernatur. Expedita explicabo perferendis consequatur doloribus fugiat dolores quidem totam. Dignissimos, modi velit fuga aliquam aut corporis praesentium ullam cumque quasi facere voluptates sequi consequatur officiis dicta tempore, incidunt nobis atque minus non explicabo animi iure sint vitae vel! Dignissimos, beatae fugit, cum iste doloremque repellat assumenda, magnam distinctio dolorum expedita magni vitae excepturi esse placeat porro inventore?",
+    "cover_image": "/assets/img/post/blog-img-3.webp"
+  }
+]

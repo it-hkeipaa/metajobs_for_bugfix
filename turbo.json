@@ -1,0 +1,33 @@
+{
+    "$schema": "https://turborepo.org/schema.json",
+    "globalEnv": [
+        "endpoint",
+        "endPointFrontend",
+        "ADMIN_CONTACT_EMAIL",
+        "NODEMAILER_HOST",
+        "NODEMAILER_PORT",
+        "NODEMAILER_EMAIL",
+        "NODEMAILER_PASSWORD",
+        "MONGODB_URL",
+        "JWT_SECRET",
+        "PROVIDER",
+        "NODEMAILER_SECURE"
+    ],
+    "pipeline": {
+        "build": {
+            "dependsOn": ["^build"],
+            "outputs": ["dist/**", ".next/**"]
+        },
+
+        "lint": {
+            "outputs": []
+        },
+        "dev": {
+            "cache": false
+        },
+        "start": {
+            "dependsOn": ["^start"],
+            "outputs": ["dist/**", ".next/**"]
+        }
+    }
+}

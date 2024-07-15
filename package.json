@@ -1,0 +1,32 @@
+{
+  "name": "metajob",
+  "version": "1.2.0",
+  "private": true,
+  "workspaces": [
+    "apps/site",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "dev": "turbo run dev --parallel",
+    "site-dev": "pnpm -F site dev",
+    "site-build": "pnpm -F site build",
+    "site-start": "pnpm -F site start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md,js,jsx}\""
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "multiselect-react-dropdown": "^2.0.25"
+  },
+  "packageManager": "pnpm@7.9.0"
+}

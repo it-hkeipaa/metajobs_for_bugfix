@@ -1,0 +1,90 @@
+{
+  "name": "@metajob/next-mongo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "release": "taskr release",
+    "build": "taskr build || tsc",
+    "dev": "taskr || tsc -w",
+    "types": "tsc --emitDeclarationOnly",
+    "prettier-fix": "prettier --write ."
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": [
+      "./dist/*.js",
+      "./dist/*/index.js"
+    ],
+    "./next.config": "./dist/next.config.cjs"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "src/*",
+        "src/*/index"
+      ],
+      "next.config": [
+        "dist/next.config.d.cts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "typesVersions": {
+      "*": {
+        "*": [
+          "dist/*.d.ts",
+          "dist/*/index.d.ts"
+        ],
+        "next.config": [
+          "dist/next.config.d.cts"
+        ]
+      }
+    }
+  },
+  "peerDependencies": {
+    "next": "^12.2.5",
+    "react": "^17",
+    "react-dom": "^17"
+  },
+  "devDependencies": {
+    "@taskr/clear": "^1.1.0",
+    "@taskr/esnext": "^1.1.0",
+    "@taskr/watch": "^1.1.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/lodash": "^4.14.184",
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.38",
+    "lint-staged": "^12.1.7",
+    "next": "^12.0.8",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "taskr": "^1.1.0",
+    "taskr-swc": "^0.0.1",
+    "typescript": "^4.5.4"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/nodemailer": "^6.4.5",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.31.0",
+    "cloudinary-core": "^2.13.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "nodemailer": "^6.7.8"
+  }
+}

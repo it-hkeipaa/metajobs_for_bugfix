@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "gruntfuggly.todo-tree",
+    "jgclark.vscode-todo-highlight",
+    "bradlc.vscode-tailwindcss",
+    "usernamehw.errorlens",
+    "aaron-bond.better-comments",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "xabikos.javascriptsnippets",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}

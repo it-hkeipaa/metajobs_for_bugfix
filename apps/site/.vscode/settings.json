@@ -1,0 +1,81 @@
+{
+  "cSpell.language": "en,en-GB,en-US",
+  // Extensions: ESLint
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "explicit",
+    "source.fixAll.eslint": true,
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "eslint.format.enable": true,
+  // Extensions: Prettier
+  "prettier.requireConfig": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.fontSize": 16,
+  "editor.fontWeight": "400",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  // Extensions: TODO Tree
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.tags": ["NOTE", "TODO", "FIXME", "MARK", "[ ]", "[x]"],
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "tag",
+    "fontWeight": "bold",
+    "foreground": "#000000",
+    "opacity": 90
+  },
+  "todo-tree.highlights.customHighlight": {
+    "NOTE": {
+      "background": "#FFA500",
+      "iconColour": "#FFA500",
+      "icon": "file",
+      "type": "text-and-comment",
+      "gutterIcon": true
+    },
+    "TODO": {
+      "background": "#FFD703",
+      "iconColour": "#FFD703",
+      "icon": "tasklist",
+      "type": "text-and-comment",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "background": "#FF01FF",
+      "iconColour": "#FF01FF",
+      "icon": "bug",
+      "type": "text-and-comment",
+      "gutterIcon": true
+    },
+    "MARK": {
+      "background": "#157EFB",
+      "iconColour": "#157EFB",
+      "icon": "tag",
+      "type": "text-and-comment",
+      "gutterIcon": true
+    },
+    "[ ]": {
+      "background": "#ff000080",
+      "iconColour": "#ff000080",
+      "icon": "square",
+      "type": "text-and-comment",
+      "gutterIcon": true
+    },
+    "[x]": {
+      "background": "#00ff0080",
+      "iconColour": "#00ff0080",
+      "icon": "square-fill",
+      "type": "text-and-comment",
+      "gutterIcon": true
+    }
+  }
+}
